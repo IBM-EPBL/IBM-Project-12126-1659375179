@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="https://karishmaflowers.s3.jp-tok.cloud-object-storage.appdomain.cloud/style.css">
+</head>
+<body>
+    <div class="head">
+        <h1>FLOWERS</h1>
+    </div>
+    <img width="300px" src="https://karishmaflowers.s3.jp-tok.cloud-object-storage.appdomain.cloud/Lily.jpg" />
+    <img width="300px" src="https://karishmaflowers.s3.jp-tok.cloud-object-storage.appdomain.cloud/Lotus.jpg" />
+    <img width="300px" src="https://karishmaflowers.s3.jp-tok.cloud-object-storage.appdomain.cloud/Rose.jpg" />
+    <img width="300px" src="https://karishmaflowers.s3.jp-tok.cloud-object-storage.appdomain.cloud/Sunflower.jpg" />
+    <img width="300px" src="https://karishmaflowers.s3.jp-tok.cloud-object-storage.appdomain.cloud/Tulip.jpg" />
+
+
+    
+    <script>
+      window.watsonAssistantChatOptions = {
+        integrationID: "933d6f83-6b90-4386-a776-cc24cec9fde1", // The ID of this integration.
+        region: "au-syd", // The region your integration is hosted in.
+        serviceInstanceID: "e24ac0db-d6dc-4291-9487-72c9886d04d4", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+      });
+    </script>
+      
+</body>
+</html>
