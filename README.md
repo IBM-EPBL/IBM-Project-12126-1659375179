@@ -11,5 +11,5 @@ News Tracker Application
 |:-----------:|:-----------------:|
 | Team Leader   |    **Sophia Anjelica J**   |
 | Team Member 1 |   **Tarunika V**  |
-| Team Member 2 |  **S Kavi PriyaaP**  |
+| Team Member 2 |  **S Kavi Priyaa**  |
 | Team Member 3 | **Karishma P** |
